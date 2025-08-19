@@ -1,0 +1,127 @@
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            /* width: 100vw; */
+            gap: 20px;
+        }
+        .header{
+            display: flex;
+            flex-direction: column;
+        }
+        .top{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            width: 100%;
+            height: 15vh;
+            background-color: gray;
+        }
+        .nav{
+            background-color: orangered;
+            height: 5vh;
+            width: 100%;
+        }
+        .hero{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+        }
+        .card{
+            height: 400px;
+            width: 90vw;
+            border: 1px orangered;
+            background-color:whitesmoke;
+            border-radius: 10px;
+        }
+        .holder
+        {
+          text-align: center;  
+        }      
+        .profile{
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 2px solid orangered;
+            object-fit: cover;
+            margin: 15px 0;
+        }
+        .cont4{
+            padding: 10px;
+            text-align: center;
+        }
+        .cont4 ul{
+            list-style: none;
+        }
+        .cont4 li{
+            display: inline;
+            margin: 0 20px;
+        }
+        .cont4 a{
+            color: white;
+            text-decoration: none;
+            gap: 10px;
+        }
+        .cont3{
+            border-bottom: 0;
+            margin-bottom: 20px;
+            border-bottom: 1px solid white;
+        }
+        .cont2{
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        form input,
+        form textarea{
+            width: 60vw;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            display: block;
+        }
+        form textarea{
+            height: 70px;
+        }
+        .cont{
+            width: 85%;
+            margin: 30px auto;
+            padding: 25px;
+            box-shadow: 0 0 10px;
+            border-radius: 5px;
+        }
+        button{
+            background-color: #ff5722;
+            color: white;
+            padding: 10px;
+            width: 10vw;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .footer{
+            text-align: center;
+            padding: 15px;
+            background-color: #263238;
+            color: white;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 800px){
+            button{
+            width: 200px;
+        }
+            button:hover{
+            width: 202px;
+            opacity: 80%;
+        }
+
+        }
