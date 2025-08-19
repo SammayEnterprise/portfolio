@@ -55,7 +55,7 @@
             margin: 15px 0;
         }
         .cont4{
-            padding: 10px;
+            padding: 5px;
             text-align: center;
         }
         .cont4 ul{
@@ -68,7 +68,6 @@
         .cont4 a{
             color: white;
             text-decoration: none;
-            gap: 10px;
         }
         .cont3{
             border-bottom: 0;
@@ -124,8 +123,9 @@
             opacity: 80%;
         }
        .cont4 li{
-            margin: 0 10px;
+            margin: 0 5px;
         }
 
 
         }
+
