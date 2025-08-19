@@ -25,7 +25,7 @@
         }
         .nav{
             background-color: orangered;
-            height: 5vh;
+            height: 10vh;
             width: 100%;
         }
         .hero{
@@ -63,7 +63,7 @@
         }
         .cont4 li{
             display: inline;
-            margin: 0 20px;
+            margin: 0 15px;
         }
         .cont4 a{
             color: white;
@@ -125,7 +125,12 @@
        .cont4 li{
             margin: 0 5px;
         }
+       .cont4 li a{
+            margin: 0 5px;
+              font-size: 8px;
+        }
 
 
         }
+
 
