@@ -64,6 +64,7 @@
         .cont4 li{
             display: inline;
             margin: 0 15px;
+               text-align:center;
         }
         .cont4 a{
             color: white;
@@ -126,6 +127,7 @@
             margin: 0 5px;
         }
         }
+
 
 
 
